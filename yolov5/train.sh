@@ -1,0 +1,12 @@
+python train.py \
+--dat data/vfp.yaml \
+--cfg models/yolov5m.yaml \
+--img 1280 \
+--hyp data/hyps/hyp.scratch.yaml \
+--batch-size 32 \
+--weights yolov5m.pt \
+--epochs 30 \
+--device "0,1,2,3" \
+--name vfp_mixed \
+--noval \
+--save-period 1

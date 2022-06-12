@@ -1,0 +1,15 @@
+python test.py \
+--dataroot="" \
+--name=leftImg8bit_rain \
+--gpu_ids="3" \
+--batch_size=1 \
+--netG=resnet_6blocks \
+--preprocess=none \
+--suffix=crop768 \
+--load_iter=795000 \
+--dataset_mode='unaligned' \
+--model='cycle_gan' \
+--checkpoints_dir='/media/data1/sangjun/urp22/checkpoints' \
+--results_dir='/media/data1/sangjun/urp22/results' \
+--eval \
+--num_test=240
