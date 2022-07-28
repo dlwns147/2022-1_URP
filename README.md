@@ -1,4 +1,4 @@
-# 2022-2_URP
+# 2022-1_URP
 
 ## 1. Data augmentation with CycleGAN
 ##### CycleGAN source code : https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
